@@ -25,7 +25,7 @@ def extract_text_from_file(path):
     
     else:
         raise ValueError(" Unsupported file format.")
-API_KEY = "x6OWAtFharUcnAk3IJoGUgKcks2k5N2h6pojfNqR"  
+API_KEY = "x6OWA......................"  
 
 class CohereEmbeddings(Embeddings):
     def __init__(self, api_key):
@@ -83,3 +83,4 @@ if __name__ == "__main__":
             print(f"{i}. {doc}\n")
         answer = get_answer_from_cohere(query, retrieved_docs)
         print(" Answer:\n", answer)
+
